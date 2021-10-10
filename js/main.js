@@ -13,7 +13,7 @@ let imgs = [ 'images/img1.jpg','images/img2.jpg','images/img3.jpg','images/img4.
 let changeImg = setInterval(change, 1000 );
 function change() {
   let rand = Math.floor( Math.random() * 3 + 2 );
-  land.style.cssText = `background-image:url(../images/img${ rand }.jpg)`;
+  land.style.cssText = `background-image:url(images/img${ rand }.jpg)`;
 }
 
 

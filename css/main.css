@@ -1608,6 +1608,9 @@ transform: translate(0,-10px) scale(1.1) rotate(-7deg);
   .container {
     max-width: 100% !important;
   }
+  .land {
+    max-width: 90% !important;
+  }
   header {
     max-width: 400px !important;
   }
@@ -1615,7 +1618,7 @@ transform: translate(0,-10px) scale(1.1) rotate(-7deg);
     padding : 10px !important
   }
   header .toggle-menu {
-    margin-right: 0 !important
+    margin-right: 20px !important
   }
   .about img {
     display:none;
@@ -1624,7 +1627,7 @@ transform: translate(0,-10px) scale(1.1) rotate(-7deg);
     width: 90% !important;
   }
   .service-container .service-box {
-    max-width: 90% !important;
+    max-width: 80% !important;
   }
   .testi .testi-box {
     margin:auto !important;
@@ -1632,6 +1635,9 @@ transform: translate(0,-10px) scale(1.1) rotate(-7deg);
   }
   .testi .testi-box:last-child {
     margin-bottom: 0 !important
+  }
+  .contact {
+    max-width: 100% !important;
   }
   .contact .container > p {
     width: 100% !important;

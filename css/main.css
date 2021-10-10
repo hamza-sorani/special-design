@@ -764,7 +764,12 @@ header.fixed .links.open {
 .skill-box:nth-child(5) .skill-progress{
   background: linear-gradient(45deg, #22ffde, #2196f3);
 }
-
+@media (max-width: 767px){
+  .skills {
+    width: 520px !important;
+    margin-left: -20px;
+  }
+}
 /* ==================================================================================== */
 /* ======================= */
 /* End Skills */
@@ -1574,7 +1579,7 @@ transform: translate(0,-10px) scale(1.1) rotate(-7deg);
 /* ==================================================================================== */
 @media (min-width: 576px){
   .container {
-    max-width: 640px;
+    max-width: 540px;
   }
 }
 

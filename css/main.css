@@ -764,11 +764,13 @@ header.fixed .links.open {
 .skill-box:nth-child(5) .skill-progress{
   background: linear-gradient(45deg, #22ffde, #2196f3);
 }
-@media (max-width: 767px){
+
+@media  (min-width: 576px) and (max-width: 767px){
   .skills {
     width: 520px !important;
     margin-left: -20px;
   }
+}
 }
 /* ==================================================================================== */
 /* ======================= */
@@ -1598,6 +1600,50 @@ transform: translate(0,-10px) scale(1.1) rotate(-7deg);
 @media (min-width : 1200px){
   .container {
     max-width: 1140px;
+  }
+}
+
+/* mobile  */
+@media (max-width: 575px){
+  .container {
+    max-width: 100% !important;
+  }
+  header {
+    max-width: 400px !important;
+  }
+  header.fixed {
+    padding : 10px !important
+  }
+  header .toggle-menu {
+    margin-right: 0 !important
+  }
+  .about img {
+    display:none;
+  }
+  .gallery img {
+    width: 90% !important;
+  }
+  .service-container .service-box {
+    max-width: 90% !important;
+  }
+  .testi .testi-box {
+    margin:auto !important;
+    margin-bottom:20px !important;
+  }
+  .testi .testi-box:last-child {
+    margin-bottom: 0 !important
+  }
+  .contact .container > p {
+    width: 100% !important;
+    margin: 20px 0 !important;
+    line-height: 1.5 !important;
+  }
+  .contact-info {
+    flex-wrap: wrap;
+  }
+  .contact-form {
+    padding: 40px 20px !important;
+    width: 100% !important;
   }
 }
 /* ==================================================================================== */

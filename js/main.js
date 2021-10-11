@@ -15,6 +15,7 @@ function change() {
   let rand = Math.floor( Math.random() * 3 + 2 );
   land.style.cssText = `background-image:url(images/img${ rand }.jpg)`;
 }
+clearInterval(changeImg)
 
 
 
@@ -466,4 +467,9 @@ document.getElementById( 'message' ).oninput = function () {
   this.parentElement.dataset.message = this.value.length;
   this.parentElement.classList.add( 'count' );
 };
+
+
+const el = document.querySelector('img');
+const observer = lozad(document.querySelectorAll('img')); // passing a `NodeList` (e.g. `document.querySelectorAll()`) is also valid
+observer.observe();
 

@@ -10,7 +10,7 @@ let about = document.getElementById( 'about' );
 //change background
 //===================================
 let imgs = [ 'images/img1.jpg','images/img2.jpg','images/img3.jpg','images/img4.jpg','images/img5.jpg' ];
-let changeImg = setInterval(change, 1000 );
+let changeImg = setInterval(change, 5000 );
 function change() {
   let rand = Math.floor( Math.random() * 3 + 2 );
   land.style.cssText = `background-image:url(images/img${ rand }.jpg)`;
@@ -162,7 +162,7 @@ randBG.forEach( element => {
     if ( this.classList.contains( 'no' ) ) {
       clearInterval(changeImg)
     } else {
-      changeImg = setInterval(change, 1000 );
+      changeImg = setInterval(change, 5000 );
     }
     //remove class active
     randBG.forEach(element => {

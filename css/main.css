@@ -1613,6 +1613,12 @@ transform: translate(0,-10px) scale(1.1) rotate(-7deg);
   header.fixed {
     padding : 10px !important
   }
+  header .toggle-menu {
+    margin-right: -10px !important;
+  }
+  header .logo {
+    margin-left: -10px !important;
+  }
   .about img {
     display:none;
   }
